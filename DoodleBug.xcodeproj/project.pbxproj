@@ -14,6 +14,7 @@
 		124E870A1F15B0890026F4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124E87081F15B0890026F4C6 /* LaunchScreen.storyboard */; };
 		124E87151F15B0890026F4C6 /* DoodleBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E87141F15B0890026F4C6 /* DoodleBugTests.swift */; };
 		124E87201F15B0890026F4C6 /* DoodleBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E871F1F15B0890026F4C6 /* DoodleBugUITests.swift */; };
+		124E872E1F15CB430026F4C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124E872D1F15CB430026F4C6 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		124E871B1F15B0890026F4C6 /* DoodleBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		124E871F1F15B0890026F4C6 /* DoodleBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleBugUITests.swift; sourceTree = "<group>"; };
 		124E87211F15B0890026F4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124E872D1F15CB430026F4C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				124E86FF1F15B0890026F4C6 /* AppDelegate.swift */,
 				124E87011F15B0890026F4C6 /* ViewController.swift */,
+				124E872D1F15CB430026F4C6 /* SettingsViewController.swift */,
 				124E87031F15B0890026F4C6 /* Main.storyboard */,
 				124E87061F15B0890026F4C6 /* Assets.xcassets */,
 				124E87081F15B0890026F4C6 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				124E87021F15B0890026F4C6 /* ViewController.swift in Sources */,
 				124E87001F15B0890026F4C6 /* AppDelegate.swift in Sources */,
+				124E872E1F15CB430026F4C6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR8YTJP3JY;
 				INFOPLIST_FILE = DoodleBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemondevelopment.DoodleBug;
@@ -436,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR8YTJP3JY;
 				INFOPLIST_FILE = DoodleBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemondevelopment.DoodleBug;
